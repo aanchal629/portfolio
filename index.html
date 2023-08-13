@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Presonal portfolio website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/e6d03411b5.js" crossorigin="anonymous"></script>
+</head>
+<body>
+     <div id="header">
+        <div class="container">
+            <nav>
+                <img src="img/logo.png" class="logo">
+                <ul>
+                    <li><a href="#header">HOME</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#skills">SKILLS</a></li>
+                    <li><a href="#portfolio">CERTIFICATE</a></li>
+                    <li><a href="#contact">CONTACT </a></li>
+         
+                    
+                </ul>
+                
+            </nav>
+            <div class="header-text">
+               
+                <h1>Hi! I'm <span>Aanchal</span> Pandey 
+                <br>Website Developer<br>From Jharkhand</h1>
+        
+             
+
+            </div>
+           
+        </div>
+         
+    </div> 
+    <!-- ----------------about -->
+     <div id="about">
+        <div class="conatiner">
+            <div class="row">
+                <div class="about-col1">
+                    <img src="img/banner.png" align="left">
+                </div>
+                <div class="about-col2">
+                    <h1 class="asdf">About me</h1>
+                    <p>
+                        I am a B-Tech 4th year student at Presidency University, Bangalore. 
+                        <br>
+                        Front-end Web Developer with experience in HTML, CSS, JavaScript.
+                        <br>
+                        Skilled in developing websites. Proficient in front-end development, 
+                        <br>
+                        passionate about creating user-friendly websites.
+                    </p><br><br>
+                    
+                    <div class="tab-title">
+                        <p class="tab-links" onclick="openskill()">Skills</p>
+                        <p class="tab-links" onclick="openedu('Education')">Education</p>
+            
+                    </div>
+               <div class="tab-contents" id="Skills">
+                <ul>
+                    <li><span><u>HTML</u></span><br>I can create web pages displayed on the world wide web.</li>
+                    <li><span><u>CSS</u></span><br>I can make a web page more attractive.</li>
+                    <li><span><u>JavaScript</u></span><br>I can create a Dynamic webpage.</li>
+                    <li><span><u>JAVA</u></span><br>I am still in intermediate stage but i am willing to learn java.</li>
+                    <li><span><u>MySQL</u></span><br>I can store data on the web server .</li>
+                </ul>
+               </div>
+               <div class="tab-contents" id="Education">
+                <ul>
+                    <li><span><u>2017-2018</u></span><br>I Did My Matirculation From Carmel School Kargali Jharkhand.
+
+                    </li>
+                    <li><span><u>2018-2021</u></span><br>I Completed Diploma Engineering From Goverment Women's Polytechnic Ranchi. 
+                    </li>
+                    <li><span><u>2021-2024</u></span><br>I am Pursuing B.TECH From Presidency University Bangalore. 
+                    </li>
+                    
+                </ul>
+               </div>
+    </div> 
+   <!---skills-->
+    <div id="skills">
+        <h1 id="skill-title">Additional Skills</h1>
+        <div class="skill-list">
+            <div class="web" id="babies">
+                <i class="fa-solid fa-code"></i>
+                <h2>Website Development</h2>
+                <p>
+                    Front-end Developer with experience<br> in HTML,CSS,javascript.<br>
+                    I am proficient in front-end <br>and passionate about creating user-friendly website. 
+                </p>
+                <a href="#">Learn more</a>
+            </div>
+            <div class="web" id="baby">
+                <i class="fa-solid fa-video"></i>
+                <h2>Video Editing</h2>
+                <p>I am a part-time content creator as of now <br>i am utilizing this great talent in youtube.<br>This quality makes me more creative <br>and passionate towards my goal.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+    
+     <div id="portfolio">
+        <h1 class="sub-titles">Certifications</h1>
+        <div class="container2">
+            <div id="one">
+                <img src="img/Screenshot__28_-removebg-preview.png" id="img">
+            </div>
+            <div id="two">
+                <img src="img/Screenshot__26_-removebg-preview.png" id="img">
+            </div>
+            <div id="three">
+                <img src="img/Screenshot__27_-removebg-preview.png" id="img">
+            </div>
+            <div id="four">
+                <img src="img/Screenshot__29_-removebg-preview.png" id="img">
+            </div>
+            <div id="five">
+                <img src="img/Screenshot__30_-removebg-preview (1).png" id="img">
+            </div>
+        </div>
+    </div> 
+    <!---------contact--------->
+    <div id="contact">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-titless">Contact Me</h1>
+                <br>
+                <p id="aa"><i class="fas fa-paper-plane" id="con"></i>&nbsp; aanchalpandey123456@gmail.com</p>
+                <br>
+                <p id="aa"><i class="fas fa-phone" id="con"></i>&nbsp; 7870186136</p>
+                <br>
+                <div class="social-icons">
+                    <a href="https://youtu.be/OhrqAwJJodA"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="https://instagram.com/glitzyglam.gg?igshid=MzRlODBiNWFlZA=="><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/aanchalpandey"><i class="fab fa-linkedin"></i></a>
+                </div>
+                <br>
+                <a href="pdf/AanchalPandey-Resume.pdf"><button type="submit" id="res">RESUME <i class="fa fa-arrow-down"></i></button></a>
+            </div>
+            <div class="contact-right">
+                <form name="ContactForm" method="post">
+                    <input id="n" type="text" name="name" placeholder="Your Name" required><br>
+                    <input id="e" type="email" name="email" placeholder="Your Email" required><br>
+                    <textarea id="m" name="message" rows="6" placeholder="Your Message"></textarea><br>
+                    <input type="submit" value="SUBMIT" id="sub"></input>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>&#169;Aanchal Pandey <i class="fas fa-heart"></i> All rights reserved. </p>
+    </div>
+    <script>
+        var x = document.getElementById('Skills');
+        var y = document.getElementById('Education');
+
+            x.style.display = "block";
+            y.style.display = "none";
+
+        function openskill(){
+            if(x.style.display === "block"){
+                x.style.display = "none";
+            }
+            else{
+                x.style.display = "block";
+                y.style.display = "none";
+            }
+        }
+        function openedu(){
+            var y = document.getElementById('Education');
+            var x = document.getElementById('Skills');
+            if(y.style.display === "block"){
+                y.style.display = "none";
+            }
+            else{
+                y.style.display = "block";
+                x.style.display = "none";
+            }
+        }
+    </script>
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbz3s9o0zshXzQ2HQngyAj7nFZRsPVAfH7UbUl4i-jpCRB9tD9c2xAeaZEACJGOpc8fk/exec'
+    const form = document.forms['ContactForm']
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => alert("Thank you! your form is submitted successfully." ))
+        .then(() => {  window.location.reload(); })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+
+</html>
